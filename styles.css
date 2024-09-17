@@ -1,0 +1,189 @@
+:root 
+{
+    --primCol : rgb(6, 1, 72);
+    --secCol : rgb(255, 204, 224);
+    
+    
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    margin-top: 13vh;
+    margin-right: 5vh;
+    font-family: Arial, sans-serif;
+    
+    color: var(--primCol);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 80vh;
+    background: url("bgcanva2.png") no-repeat center center ;
+    background-size: cover;
+}
+.mainn
+{
+    
+    margin-left: 5vh;
+    color: var(--primCol);
+    display: flex;
+    flex-direction: row;
+    gap: 40vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.contact-container {
+    background-color: #0d4a45;
+    margin-right: 1vh;
+    color: var(--secCol);
+    padding: 40px; /* Increased padding */
+    border-radius: 10vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 600px; /* Increased width */
+    min-height: 400px; /* Added minimum height */
+    text-align: center;
+}
+
+.contact-container:hover
+{
+    box-shadow: 0 0 3px var(--secCol);
+}
+h2 {
+    margin-bottom: 20px;
+    color: var(--primCol);
+}
+
+p {
+    margin-bottom: 20px;
+    color: var(--primCol);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    transform: scale(1.02); /* Slight increase in base scale */
+    transition: all 0.5s ease;
+}
+
+.contact-form:hover
+{
+    transform: scale(1.01);
+    
+}
+
+.contact-form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form text {
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: rgb(253, 221, 234);
+    border: 1px solid var(--secCol);
+    border-radius: 5vh;
+    font-size: 16px;
+    width: 100%;
+    resize: vertical;
+}
+
+.contact-form button {
+    
+    margin-left: 30%;
+    background-color: var(--primCol);
+    color: white;
+    width: 40%;
+    border: none;
+    padding: 20px 20px;
+    border-radius: 5vh;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #f5bebd;
+    box-shadow: 0 0 5px var(--primCol);
+    color: var(--primCol);
+}
+.social-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5vh;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    transform: scale(1.00);
+    transition: all 0.5s ease; 
+}
+
+.social-container:hover
+{
+    transform: scale(1.01);
+    box-shadow: 0 0 2px var(--primCol);
+}
+
+
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-btn {
+    display: inline-block;
+    background-color: #f5bebd;
+    color: white;
+    font-size: 24px;
+    padding: 15px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    transform: scale(1.0);
+    transition: all 0.5s ease;
+}
+
+.social-btn:hover {
+    background-color: #666;
+    transform: scale(1.1);
+}
+
+.facebook:hover {
+    background-color: #3b5998;
+    transform: scale(1.1);
+}
+
+.twitter:hover {
+    background-color: #1da1f2;
+    transform: scale(1.1);
+}
+
+.instagram:hover {
+    background-color: #dc40e4;
+    transform: scale(1.1);
+}
+
+.linkedin:hover {
+    background-color: #0077b5;
+    transform: scale(1.1);
+}
+
+.youtube:hover {
+    background-color: #ff0000;
+    transform: scale(1.1);
+}
+
+.social-btn i {
+    line-height:1;
+}
+
