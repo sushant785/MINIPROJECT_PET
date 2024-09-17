@@ -1,0 +1,206 @@
+:root {
+    font-family: 'Poppins', sans-serif;
+
+    --primCol: rgb(6, 1, 72);
+    --secCol: rgb(255, 204, 224);
+   
+    
+}
+
+body {
+    margin: 0;
+    
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: seagreen;
+    background: url('images/img3.4.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.logo {
+    background-color: var(--secCol);
+    padding: 1%;
+    text-align: center;
+    font-size: 120%;
+}
+
+.nav-bar {
+    font-size: 120%;
+    background-color: var(--primCol);
+    color: var(--secCol);
+    display: flex;
+    padding: 0.5%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-login {
+    background-color: var(--secCol);
+    color: var(--primCol);
+    border: 2px solid var(--secCol);
+    border-radius: 3px;
+    padding: 0.3% 1.3%;
+}
+
+.wrapper {
+    width: 500px;
+    
+    background-color: transparent;
+    border: none;
+    outline: none;
+    backdrop-filter: blur(13px);
+    box-shadow: 0 0 100px var(--secCol);
+    color: var(--primCol);
+    padding: 15px 15px;
+    border-radius: 40px;
+    transform: scale(1.00000);
+    transition: all 0.35s ease;
+    margin-top: 3.0%;
+    margin-left: 3%;
+}
+
+.wrapper:hover {
+    box-shadow: 0 0 50px var(--secCol), 0 0 4px var(--primCol);
+    transform: scale(1.00009);
+    backdrop-filter: blur(3px);
+    margin-top: 2.7%;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    width: 95%;
+    height: 50px;
+    margin: 13px 0;
+    position: relative; 
+    padding-top: 2%;
+    padding-bottom: 2%;
+    /* Added for positioning icons */
+}
+
+.input-box input {
+    width: 100%; /* Adjusted to fill the input-box */
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid var(--primCol);
+    border-radius: 10px;
+    font-size: 16px;
+    color: var(--secCol);
+    padding: 20px;
+    transition: all 0.25s ease;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.input-box input:hover {
+    box-shadow: 0 0 2px var(--primCol);
+    transform: scale(1.005);
+}
+
+.input-box input::placeholder {
+    color: var(--primCol);
+    
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .remember-forget {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin-right: 2.5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 7%;
+}
+
+.remember-forget label input {
+    accent-color: var(--primCol);
+    cursor: pointer;
+}
+
+.remember-forget a {
+    color: var(--primCol);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.remember-forget a:hover {
+    text-decoration: underline;
+    transition: all 0.25s ease;
+}
+
+.wrapper .btn {
+    margin: 0 auto;
+    display: block;
+    width: 25%;
+    height: 45px;
+    background-color: var(--secCol);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: var(--primCol);
+    font-weight: 600;
+    transition: all 0.25s ease;
+    font-family: 'Poppins', sans-serif;
+
+    
+}
+
+.wrapper .btn:hover {
+    box-shadow: 0 0 10px var(--primCol);
+    transform: scale(1.02);
+}
+
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.register-link p a {
+    color: var(--primCol);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.25s ease;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+    text-shadow: 0 0 1px var(--primCol), 0 0 2px var(--secCol);
+    font-size: 15px;
+}
+
+.SUtxt
+{
+    letter-spacing: 2px;
+    margin-left: 18%;
+    transform: scale(1.00);
+    transition: all 0.25s ease;
+}
+
+.SUtxt:hover
+{
+    transform: scale(1.10);
+}
+
+.SUtxt a
+{
+    text-decoration: none;
+    color: var(--primCol);
+}

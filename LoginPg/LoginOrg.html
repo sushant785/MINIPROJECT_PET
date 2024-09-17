@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPg</title>
+    <link rel="stylesheet" href="LoginOrg.css">
+</head>
+<body>
+    <div class="logo">AASHRAY LOGO</div>
+    <div class="nav-bar">
+        <div class="nav-home">Home</div>
+        <div class="nav-petcare">Petcare</div>
+        <div class="nav-petadopt">Adopt</div>
+        <div class="nav-rescue">Rescue</div>
+        <div class="nav-blogs">Blogs</div>
+        <div class="nav-aboutus">About Us</div>
+        <div class="nav-contactus">Contact Us</div>
+        <div class="nav-login">Login</div>
+    </div>
+    <div class="bodypt2">
+    <div class="wrapper">
+        <form action="http://localhost:3008/LoginOrg" method="POST" >
+            <h1>Organization Login</h1>
+            <div class="input-box">
+                <input type="text" name="orgName" class="input-box" placeholder="Org name" required>
+            </div>
+            <div class="input-box">
+                <input type="text" name="orgType" class="input-box" placeholder="Org type" required>
+            </div>
+            <div class="input-box">
+                <input type="password" name="passWord" class="input-box" placeholder="Password" required>
+            </div>
+            <div class="remember-forget">
+                <label>
+                    <input type="checkbox"> Remember me
+                </label>
+                <a href="#">Forgot password</a>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <p class="SUtxt">Don't have an account?  <a href="SignUpOrg.html"><b>SignUp</b></a></p>
+        </form>
+        
+    </div>
+</div>
+</body>
+
+<script src="LoginOrg.js"></script>
+</html>
