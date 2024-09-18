@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box{
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-color: cover;
+    display: table;
+    background-attachment: fixed ;
+}
+
+.box:nth-child(1){
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0.978),rgba(0,0,0,0.758)),url(motherCat.jpeg.jpg);
+    position: relative;
+}
+
+.box:nth-child(2){
+    background-image:  url(threeLabs.jpeg.jpg);
+}
+
+.box:nth-child(3){
+    background-image:-webkit-linear-gradient(rgba(0,0,0,0.978),rgba(0,0,0,0.758)), url(catButterfly.jpeg.jpg);
+    position: relative;
+}
+
+.box:nth-child(4){
+    background-image: url(dogcatsun.jpeg.jpg);
+}
+
+.box:nth-child(5){
+    background-image:-webkit-linear-gradient(rgba(0,0,0,0.978),rgba(0,0,0,0.758)), url(values.jpeg.jpg);
+    position: relative;
+}
+
+
+h1{
+    color: ghostwhite;
+    font-size: 100px;
+    text-transform: capitalize;
+    -webkit-text-stroke: 1px ghostwhite;
+    color: transparent;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+p{
+    color: ghostwhite;
+    font-size: 16px;
+    text-transform: capitalize;
+    -webkit-text-stroke: 1px ghostwhite;
+    color: transparent;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+
+h1:hover{
+    color: ghostwhite;
+    transition: 2s;
+}
