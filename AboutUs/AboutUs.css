@@ -36,7 +36,7 @@ body {
     background-color: var(--primCol);
     color: var(--secCol);
     display: flex;
-    padding: 0%;
+    padding: 0.4%;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
