@@ -15,7 +15,7 @@
 }
 
 .box:nth-child(1){
-    background-image: -webkit-linear-gradient(rgba(0,0,0,0.978),rgba(0,0,0,0.758)),url(motherCat.jpeg.jpg);
+    background-image: -webkit-linear-gradient(#1a252c,rgba(0,0,0,0.758)),url(motherCat.jpeg.jpg);
     position: relative;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .box:nth-child(3){
-    background-image:-webkit-linear-gradient(rgba(0,0,0,0.978),rgba(0,0,0,0.758)), url(catButterfly.jpeg.jpg);
+    background-image:-webkit-linear-gradient(#1a252c,rgba(0,0,0,0.758)), url(catButterfly.jpeg.jpg);
     position: relative;
 }
 
@@ -33,16 +33,16 @@
 }
 
 .box:nth-child(5){
-    background-image:-webkit-linear-gradient(rgba(0,0,0,0.978),rgba(0,0,0,0.758)), url(values.jpeg.jpg);
+    background-image:-webkit-linear-gradient(#1a252c,rgba(0,0,0,0.758)), url(values.jpeg.jpg);
     position: relative;
 }
 
 
 h1{
-    color: ghostwhite;
+    color: rgb(41, 30, 18);
     font-size: 100px;
     text-transform: capitalize;
-    -webkit-text-stroke: 1px ghostwhite;
+    -webkit-text-stroke: 1px rgb(244, 231, 216);
     color: transparent;
     position: absolute;
     top: 45%;
@@ -52,10 +52,10 @@ h1{
 }
 
 p{
-    color: ghostwhite;
+    color: rgb(244, 231, 216);
     font-size: 16px;
     text-transform: capitalize;
-    -webkit-text-stroke: 1px ghostwhite;
+    -webkit-text-stroke: 1px rgb(244, 231, 216);
     color: transparent;
     position: absolute;
     top: 65%;
