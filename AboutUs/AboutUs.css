@@ -165,3 +165,49 @@ h1:hover{
     color:bisque;
     transition: 2s;
 }
+
+
+/* Responsive Media Queries */
+@media screen and (max-width: 1200px) {
+    h1 {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    h1 {
+        font-size: 60px;
+    }
+    .nav-bar {
+        flex-direction: column;
+        padding: 1%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+    }
+    .logo {
+        font-size: 100%;
+    }
+    .nav-bar {
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 40px;
+    }
+    .logo {
+        font-size: 90%;
+    }
+    .nav-bar {
+        font-size: 90%;
+        padding: 1% 0;
+    }
+    p {
+        font-size: 12px;
+    }
+}
