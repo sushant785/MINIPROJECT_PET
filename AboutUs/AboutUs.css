@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 :root {
@@ -102,7 +102,7 @@ a {
 }
 
 .box{
-    width: 100vw;
+    width: 98.9vw;
     height: 100vh;
     background-position: center;
     background-color: cover;
