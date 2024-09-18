@@ -20,8 +20,7 @@ body {
     font-family: Arial, sans-serif;
     
     color: var(--primCol);
-    display: flex;
-    justify-content: right;
+    
     align-items: center;
     height: 80vh;
     background: url("bgcanva2.png") no-repeat center center ;
@@ -190,11 +189,12 @@ p {
 .map-container {
     margin-top: 20px;
     text-align: center;
+    
 }
 
 .map-container iframe {
-    width: 100%;
-    max-width: 600px; /* To ensure it's responsive */
+    width: 200%;
+    max-width: 200vh; /* To ensure it's responsive */
     height: 450px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
